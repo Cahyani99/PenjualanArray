@@ -40,6 +40,6 @@ foreach ($beli as $item) {
 // Commit 4 – Output akhir
 echo "------------------------------<br>";
 echo "Total Belanja : <b>$grandtotal</b><br>";
-
+?>
 
 ?>
