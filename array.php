@@ -29,5 +29,14 @@ for ($i = 0; $i < $variasi; $i++) {
     $grandtotal += $beli[$i]['total'];
 }
 
+// Commit 3 – Perhitungan total dan tampilan
+foreach ($beli as $item) {
+    echo "Kode Barang : " . $item['kode'] . "<br>";
+    echo "Nama Barang : " . $item['nama'] . "<br>";
+    echo "Harga Barang : " . $item['harga'] . "<br>";
+    echo "Jumlah Beli : " . $item['jumlah'] . "<br>";
+    echo "Total Harga : " . $item['total'] . "<br><br>";
+}
+
 
 ?>
