@@ -37,6 +37,9 @@ foreach ($beli as $item) {
     echo "Jumlah Beli : " . $item['jumlah'] . "<br>";
     echo "Total Harga : " . $item['total'] . "<br><br>";
 }
+// Commit 4 – Output akhir
+echo "------------------------------<br>";
+echo "Total Belanja : <b>$grandtotal</b><br>";
 
 
 ?>
