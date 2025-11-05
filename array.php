@@ -59,4 +59,10 @@ $total_bayar = $grandtotal - $potongan;
 
 echo "Potongan Diskon : <b>$potongan</b><br>";
 echo "Total Pembayaran Setelah Diskon : <b>$total_bayar</b><br>";
+
+// ✅ Commit 7 – Ucapan terima kasih langsung di bawah total pembayaran
+echo "==============================<br>";
+echo "TERIMA KASIH TELAH BERBELANJA<br>";
+echo "Semoga Hari Anda Menyenangkan :)</center>";
+
 ?>
