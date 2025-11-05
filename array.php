@@ -40,6 +40,16 @@ foreach ($beli as $item) {
 // Commit 4 – Output akhir
 echo "------------------------------<br>";
 echo "Total Belanja : <b>$grandtotal</b><br>";
-?>
 
+// Commit 5  Info Diskon Berdasarkan Total
+if ($grandtotal < 50000) {
+    $diskon = 5;
+    echo "Selamat Anda mendapatkan diskon sebesar <b>$diskon%</b><br>";
+} elseif ($grandtotal >= 50000 && $grandtotal <= 100000) {
+    $diskon = 10;
+    echo "Selamat Anda mendapatkan diskon sebesar <b>$diskon%</b><br>";
+} else {
+    $diskon = 20;
+    echo "Selamat Andamendapatkan diskon sebesar <b>$diskon%</b><br>";
+}
 ?>
