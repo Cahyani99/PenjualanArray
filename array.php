@@ -52,4 +52,11 @@ if ($grandtotal < 50000) {
     $diskon = 20;
     echo "Selamat Andamendapatkan diskon sebesar <b>$diskon%</b><br>";
 }
+
+//  Commit 6 – Total Pembayaran Setelah Diskon
+$potongan = $grandtotal * ($diskon / 100);
+$total_bayar = $grandtotal - $potongan;
+
+echo "Potongan Diskon : <b>$potongan</b><br>";
+echo "Total Pembayaran Setelah Diskon : <b>$total_bayar</b><br>";
 ?>
